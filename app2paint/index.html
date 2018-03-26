@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Paint Canvas</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class= "col-sm-12 title" align="center">
+			<p>Pick a Color and paint the canvas</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class= "col-sm-12"  >
+			<div class="centerDiv" align="center">
+				<div class = "col-sm-2" style="background: #FFFFE0;;">
+					<button type="button" class="btn btn-primary myButton" id ="red" onclick="saveChoice(this.id);" style="background: red;">Red
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="blue" onclick="saveChoice(this.id);" style="background: blue;">Blue
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="green" onclick="saveChoice(this.id);" style="background: green;">Green
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="orange" onclick="saveChoice(this.id);" style="background: orange;">Orange
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="pink" onclick="saveChoice(this.id);" style="background: pink;">Pink
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="white" onclick="saveChoice(this.id);" style="background: white;">White
+					</button>
+
+					<button type="button" class="btn btn-primary myButton" id ="yellow" onclick="saveChoice(this.id);" style="background: yellow;">Yellow
+					</button>
+
+				</div>
+
+				<div class = "col-sm-10" style="background: #FFFFE0;">
+
+					<table style="width:100%">
+					  <tr>
+					  	<td id="1" onclick="cellClicked(this.id);"></td>
+					  	<td id="2" onclick="cellClicked(this.id);"></td>
+					  	<td id="3" onclick="cellClicked(this.id);"></td>
+					  	<td id="4" onclick="cellClicked(this.id);"></td>
+					  	<td id="5" onclick="cellClicked(this.id);"></td>
+					  </tr>
+
+					  <tr>
+					  	<td id="6" onclick="cellClicked(this.id);" colspan="2">
+					  		
+					  	</td>
+
+					  	<td id="7" onclick="cellClicked(this.id);"></td>
+
+					  	<td id="8" onclick="cellClicked(this.id);" colspan="2">
+					  	
+					  	</td>
+					  </tr>
+
+					  <tr>
+					  	<td id="9" onclick="cellClicked(this.id);"></td>
+					  	<td id="10" onclick="cellClicked(this.id);"></td>
+					  	<td id="11" onclick="cellClicked(this.id);"></td>
+					  	<td id="12" onclick="cellClicked(this.id);"></td>
+					  	<td id="13" onclick="cellClicked(this.id);"></td>
+					  </tr>
+
+
+					  <tr>
+					  	<td id="14" onclick="cellClicked(this.id);" colspan="3">
+					  		
+					  	</td>
+
+					  	<td id="15" onclick="cellClicked(this.id);" colspan="2">
+					  		
+					  	</td>
+					  </tr>
+					</table>
+
+					<button class="btn btn-primary myButton" onclick="resetColors();">Reset</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

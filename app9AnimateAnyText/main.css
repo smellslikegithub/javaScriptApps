@@ -1,0 +1,66 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: #d6c7c7;
+}
+
+.wrapCenter{
+
+	position: relative;
+	top: 25%;
+	
+
+}
+
+.theHeading{
+
+	text-align: center;
+}
+
+.theHeading h1{
+
+	font-size: 5em;
+	font-family: Comic Sans MS,Sans-serif;
+}
+
+.displayPanel{
+
+	height: 400px;
+	text-align: center;
+	
+
+
+}
+
+.displayScreen{
+
+	width: 100%;
+	height: 50%;
+
+
+}
+
+.displayList{
+
+	list-style: none;
+}
+
+.displayList li{
+
+	display: inline-block;
+}
+
+.flyInText li{
+
+	list-style: none;
+	display: inline-block;
+	transition: all 2.5s ease-out;
+	animation-duration: 2.5s;
+	
+
+}
