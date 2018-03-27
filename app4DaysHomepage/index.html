@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Days Home Page Theme</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="main.js"></script>
+</head>
+<body class = "myBody">
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 center-block daysBlock ">
+			<div class = "table-responsive">
+				<table class="table table-borderless" >
+					<tr>
+						<td>  </td>
+					</tr>
+					<tr>
+						<td>
+							<button  id="day0" class="myButton">SUNDAY</button>
+						</td>
+						<td>
+							<button id="day1" class="myButton">MONDAY</button>
+						</td>
+						<td>
+							<button id="day2" class="myButton">TUESDAY</button>
+						</td>
+						<td>
+							<button id="day3" class="myButton">WEDNESDAY</button>
+						</td>
+						<td>
+							<button id="day4" class="myButton">THURSDAY</button>
+						</td>
+						<td>
+							<button id="day5" class="myButton">FRIDAY</button>
+						</td>
+						<td>
+							<button id="day6" class="myButton">SATURDAY</button>
+						</td>
+					</tr>
+			</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 center-block image-block" >
+			
+			<div id="backDrop">
+				<img  id = "dial"src="images/dial.png" alt="dial.png">
+			</div>
+
+			<div id="curtain">
+				<h3 id="day" class="heading3"> </h3> <!--DAY-->
+				<h3 id = "dateTime"class="heading3"></h3><!--Time-->
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	findDay();
+</script>
+</body>
+</html>

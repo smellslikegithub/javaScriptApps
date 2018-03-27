@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Door application</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+<!--Container Opened-->
+<div class="container textContainer">
+	<div class = "row col-sm-2"></div> <!--row fake-->
+
+	<div class = "row col-sm-8">
+		<p class = "whiteText" id="title">Do you Wish to Make a Deal?</p>
+		<p class="whiteText">There are three doors. Behind one door there is a jackpot.</p>
+
+	</div>
+
+	<div class = "row col-sm-2"></div><!--row fake-->
+</div><!--Container Closed-->
+
+<div class="container picsContainer" >
+	<div class="row">
+		<div class="col-sm-4 centerImage" id = "1" onmouseout="doorHoverAway(this.id);" onmouseover="doorHover(this.id);" onclick = "locateJackpot(this.id);">
+			<img class="doorImage " src="images/blackDoor.png"   alt="Black Door">
+		</div>
+
+		<div class="col-sm-4 centerImage" id = "2" onmouseout="doorHoverAway(this.id);" onmouseover="doorHover(this.id);" onclick = "locateJackpot(this.id);">
+			<img class="doorImage" src="images/whiteDoor.png"  alt="Black Door">
+		</div>
+
+		<div class="col-sm-4 centerImage" id = "3" onmouseout="doorHoverAway(this.id);" onmouseover="doorHover(this.id);" onclick = "locateJackpot(this.id);">
+			<img class="doorImage" src="images/mysticDoor.png"  alt="Black Door">
+		</div>
+	</div>
+
+</div>
+
+<div class= "container">
+
+	<div class = row>
+
+		<div class="col-sm-12">
+			<p class="whiteText centerText" id="resultBox">Lets See your Result!</p>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+	
+	generateRandom();	
+
+</script>
+
+</body>
+</html>

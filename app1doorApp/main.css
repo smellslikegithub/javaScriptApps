@@ -1,0 +1,43 @@
+body{
+	 background: #333333 ;
+
+}
+
+.textContainer{
+
+	text-align: justify;
+}
+
+.centerImage
+{
+	text-align:center;
+	display:block;
+}
+
+.centerText
+{
+	text-align:center;
+	display:block;
+}
+
+.whiteText{
+
+	font-family: Consolas, monaco, monospace;
+	color: white;
+	font-size: 20px;
+}
+
+#title{
+
+	font-size: 50px;
+	text-align: center;
+}
+
+.doorImage{
+
+	width: 200px;
+	height: 300px;
+	position: center;
+
+
+}

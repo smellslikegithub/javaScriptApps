@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="main.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="container centerParent">
+		<div class="row col-md-8 centerRow "  >
+			<div class="gameMonitor floatLeft gradient1" id = "gameMonitorId" >
+				<div class="gameCube" id="gameCubeId">
+					
+				</div>
+			</div>
+
+			<div class="monitorSide floatLeft gradient2 " >
+				<div class="scorePanel">
+					<h3>Time (ms)</h3>
+					<h3 id="timeInMs"></h3>
+				</div>
+
+				<div class="miscPanel" >
+					<h3>Total Mishits</h3>
+					<h3 id="mishitsId"></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	game();
+</script>
+</html>

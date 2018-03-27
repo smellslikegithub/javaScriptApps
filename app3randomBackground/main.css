@@ -1,0 +1,15 @@
+.myButton{
+
+	text-align: center;
+	font-size: 50px;
+	display: block;
+	width: 250px;
+	height: 100px;
+	margin: 50px 0 0 0; /*top right bottom left---> clockwise*/
+	box-shadow: 10px 10px 15px #999999;  /*left down blur shadow-color*/
+}
+
+.bg{
+
+	background: #FFF18E;
+}
